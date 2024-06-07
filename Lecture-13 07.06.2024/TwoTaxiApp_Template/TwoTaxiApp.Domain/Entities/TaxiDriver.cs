@@ -4,4 +4,8 @@ namespace TwoTaxiApp.Domain;
 
 public class TaxiDriver : Person
 {
+
+    public string Plate { get; set; }
+
+    public string DriverLicencenumber { get; set; }
 }
